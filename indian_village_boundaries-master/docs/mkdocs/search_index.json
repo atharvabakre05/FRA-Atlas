@@ -1,0 +1,489 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Indian Village Boundaries (Maps)\n\n\nIndian Village boundaries sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc\n\n\nThe boundaries are organized by state using state ISO code. All the village boundaries are available in geojson (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer \nCONTRIBUTING\n for ways to contribute.\n\n\n This projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the \nGoogle Group\n to be part of this community.\n\n\nDownload\n\n\nYou can download the whole repository as a zip file to get everything you want. Using the button below.\n\n\n\n  \n Download Everything\n\n\nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map. \nRight click on download link -\n Save link as\n.\n\n\n\n    \n\n        \nState\n\n        \nStatus\n\n        \nDownload\n\n    \n\n\n\n    \n\n        \nBihar - BR\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nKarnataka - KA\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nKerala - KL\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nGoa - GA\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nGujarat - GJ\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nMaharashtra - MH\n\n        \nComplete\n\n        \nDownload 1\n, \nDownload 2\n\n    \n\n    \n\n        \nSikkim - SK\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nOdisha - OR\n\n        \nComplete\n\n        \nDownload 1\n, \nDownload 2\n\n    \n\n\n\n\n\n\n\n\nStructure\n\n\nEach state has a folder with a short name, for example state of Karnataka will have folder called \nka\n folder. It will contain \n\n\n\n\nA geojson file \nka.json\n which is our map file\n\n\nA \nka.csv\n is a \n,\n delimted file to match the 2001 census codes to 2011 census codes and other attributes\n\n\n\n\nGeoJson Attributes\n\n\nEach boundary will have the following attributes\n\n\n\n\nNAME : Name of the Village/Town as per census 2001\n\n\nTYPE: Village or Town \n\n\nSUB_DIST: Sub District name as per census 2001\n\n\nDISTRICT : District name as per census 2001\n\n\nSTATE: State or UT name as per census 2001\n\n\nCEN_2001: Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.\n\n\n\n\nCSV Attributes\n\n\n\n\nvillage_code_2011\n\n\nvillage_name_2011\n\n\nstate_code_2011\n\n\ndistrict_code_2011 \n\n\nsub_district_code_2011\n\n\nvillage_code_2001\n\n\nvillage_name_2001\n\n\nstate_code_2001\n\n\ndistrict_code_2001\n\n\nsub_district_code_2001\n\n\nCEN_2001 : Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001. This can be used as the key to match the polygon in geojson\n\n\n\n\nLicense\n\n\nAll our work will be under \nOpen Data Commons Open Database License (ODbL)\n. This data is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  If you find issues we are more than happy to accept corrections but please source them to an official source. Refer \nCONTRIBUTING.md\n for ways to contribute.\n\n\nAttribute\n\n\nPlease use the following lines to attribute the maps if you use in your work. You could link instead of printing the URLs in case of web projects.\n\n\nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_boundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/licenses/odbl/].\n\n  \n\n\nIssues\n\n\nIf you have any issues with the maps, please report them on the github repository:\n\n\nReport Issue\n\n\nActive Issues\n\n\nRepository\n\n\n\n  \n GitHub\n   \n\n  \n GitLab\n\n\nCommunity", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#indian-village-boundaries-maps", 
+            "text": "Indian Village boundaries sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc  The boundaries are organized by state using state ISO code. All the village boundaries are available in geojson (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer  CONTRIBUTING  for ways to contribute.   This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the  Google Group  to be part of this community.", 
+            "title": "Indian Village Boundaries (Maps)"
+        }, 
+        {
+            "location": "/#download", 
+            "text": "You can download the whole repository as a zip file to get everything you want. Using the button below.  \n    Download Everything  If you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map.  Right click on download link -  Save link as .  \n     \n         State \n         Status \n         Download \n      \n     \n         Bihar - BR \n         Complete \n         Download \n     \n     \n         Karnataka - KA \n         Complete \n         Download \n     \n     \n         Kerala - KL \n         Complete \n         Download \n     \n     \n         Goa - GA \n         Complete \n         Download \n     \n     \n         Gujarat - GJ \n         Complete \n         Download \n     \n     \n         Maharashtra - MH \n         Complete \n         Download 1 ,  Download 2 \n     \n     \n         Sikkim - SK \n         Complete \n         Download \n     \n     \n         Odisha - OR \n         Complete \n         Download 1 ,  Download 2", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/#structure", 
+            "text": "Each state has a folder with a short name, for example state of Karnataka will have folder called  ka  folder. It will contain    A geojson file  ka.json  which is our map file  A  ka.csv  is a  ,  delimted file to match the 2001 census codes to 2011 census codes and other attributes", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/#geojson-attributes", 
+            "text": "Each boundary will have the following attributes   NAME : Name of the Village/Town as per census 2001  TYPE: Village or Town   SUB_DIST: Sub District name as per census 2001  DISTRICT : District name as per census 2001  STATE: State or UT name as per census 2001  CEN_2001: Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.", 
+            "title": "GeoJson Attributes"
+        }, 
+        {
+            "location": "/#csv-attributes", 
+            "text": "village_code_2011  village_name_2011  state_code_2011  district_code_2011   sub_district_code_2011  village_code_2001  village_name_2001  state_code_2001  district_code_2001  sub_district_code_2001  CEN_2001 : Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001. This can be used as the key to match the polygon in geojson", 
+            "title": "CSV Attributes"
+        }, 
+        {
+            "location": "/#license", 
+            "text": "All our work will be under  Open Data Commons Open Database License (ODbL) . This data is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  If you find issues we are more than happy to accept corrections but please source them to an official source. Refer  CONTRIBUTING.md  for ways to contribute.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/#attribute", 
+            "text": "Please use the following lines to attribute the maps if you use in your work. You could link instead of printing the URLs in case of web projects. \nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_boundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/licenses/odbl/].", 
+            "title": "Attribute"
+        }, 
+        {
+            "location": "/#issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository:  Report Issue  Active Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/#repository", 
+            "text": "GitHub     \n    GitLab", 
+            "title": "Repository"
+        }, 
+        {
+            "location": "/#community", 
+            "text": "", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/contributing/", 
+            "text": "Contributing to Indian Village Boundaries\n\n\nWe are open to contributions. Please read \nDataMeet Community Code of Conduct\n before you start and also read our \nlicense to familiarize yourself with ODBl\n under which all our and your contributions will be distributed.\n\n\nReferencing the Source\n\n\nFor any change you make please link to a source. We prefer goverment websites or websites/apps like \nOpenStreeMap\n who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.\n\n\nFormat\n\n\nAll the village boundaries are available in geojson (WGS84, EPSG4326) format.\n\n\nAttributes\n\n\nEach boundary will have the following attributes\n\n\n\n\nNAME : Name of the Village/Town as per census\n\n\nTYPE: Village or Town\n\n\nSUB_DISTRICT: Sub District name as per census\n\n\nDISTRICT : District name as per census\n\n\nSTATE: State or UT name as per census\n\n\nCENSUS_CODE_2001: Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.\n\n\nCENSUS_CODE_2011: Code as per 2011 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.\n\n\n\n\nHow to contribute\n\n\n\n\nFork the project\n\n\nMake changes\n\n\nSend a pull request\n\n\n\n\nAcceptance procedure\n\n\n\n\nOne of the core volunteer will cross-check/validate with the references you add to pull request\n\n\nIf everything is okay then will accept the pull request\n\n\n\n\nAdding new attribute or changing the value\n\n\nBefore adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.\n\n\nAdding new state\n\n\nRefer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an \nissue on the issue tracker\n, so other know you are working on it. Also check the status on the README file.\n\n\nReporting error\n\n\nIf you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.\n\n\nReport Issue\n\n\nActive Issues\n\n\nAnything else\n\n\nStart an \nissue on the issue tracker\n or email on the list.", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/#contributing-to-indian-village-boundaries", 
+            "text": "We are open to contributions. Please read  DataMeet Community Code of Conduct  before you start and also read our  license to familiarize yourself with ODBl  under which all our and your contributions will be distributed.", 
+            "title": "Contributing to Indian Village Boundaries"
+        }, 
+        {
+            "location": "/contributing/#referencing-the-source", 
+            "text": "For any change you make please link to a source. We prefer goverment websites or websites/apps like  OpenStreeMap  who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.", 
+            "title": "Referencing the Source"
+        }, 
+        {
+            "location": "/contributing/#format", 
+            "text": "All the village boundaries are available in geojson (WGS84, EPSG4326) format.", 
+            "title": "Format"
+        }, 
+        {
+            "location": "/contributing/#attributes", 
+            "text": "Each boundary will have the following attributes   NAME : Name of the Village/Town as per census  TYPE: Village or Town  SUB_DISTRICT: Sub District name as per census  DISTRICT : District name as per census  STATE: State or UT name as per census  CENSUS_CODE_2001: Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.  CENSUS_CODE_2011: Code as per 2011 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.", 
+            "title": "Attributes"
+        }, 
+        {
+            "location": "/contributing/#how-to-contribute", 
+            "text": "Fork the project  Make changes  Send a pull request", 
+            "title": "How to contribute"
+        }, 
+        {
+            "location": "/contributing/#acceptance-procedure", 
+            "text": "One of the core volunteer will cross-check/validate with the references you add to pull request  If everything is okay then will accept the pull request", 
+            "title": "Acceptance procedure"
+        }, 
+        {
+            "location": "/contributing/#adding-new-attribute-or-changing-the-value", 
+            "text": "Before adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.", 
+            "title": "Adding new attribute or changing the value"
+        }, 
+        {
+            "location": "/contributing/#adding-new-state", 
+            "text": "Refer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an  issue on the issue tracker , so other know you are working on it. Also check the status on the README file.", 
+            "title": "Adding new state"
+        }, 
+        {
+            "location": "/contributing/#reporting-error", 
+            "text": "If you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.  Report Issue  Active Issues", 
+            "title": "Reporting error"
+        }, 
+        {
+            "location": "/contributing/#anything-else", 
+            "text": "Start an  issue on the issue tracker  or email on the list.", 
+            "title": "Anything else"
+        }, 
+        {
+            "location": "/reference/", 
+            "text": "Reference\n\n\nThis is the master list of all the references. These links are mostly goverment or under open license. Each state folder also has a note that can be reffered.\n\n\nState Level\n\n\n\n\nAP - Bhuvan - Andhra Pradesh State Village Boundaries\n\n\nBR - Bihar Atlas -  iBHUGOAL-BiHar infrastrUcture mapping Geomatics Oriented Application modeL\n\n\nBR - Administrative Atlas-Bihar\n\n\nGJ - Gujarat Revenue Department Maps\n\n\nHR - Haryana Geo-portal\n\n\nKA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance\n\n\nKA - Geographical Information System (GIS) based Road Information System (RIS) for PWP \n IWTD Road Network\n\n\nKA - Dharwad Village Boundaries\n\n\nKL - Delimitation Map 2010, Kerala, Maps of Villages and Towns\n\n\nGA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance\n\n\nGA - Taluka Village Maps - Department of Science, Technology and Environment, Govt of Goa -  PDF\n\n\nGA - Districts of Goa, Govt of Goa\n\n\nGA - DGPS Maps - Directorate of Mines \n Geology, Govt of Goa\n\n\nGA - Bhuvan Goa\n\n\nGA - GARV-GIS Mapping of UE Villages\n\n\nTS - Bhuvan - Telangana State Village Boundaries\n\n\nMH - Maharashtra Remote Sensing Application Centre\n\n\nMH - Geo-referencing of Village Map Project (GVMP)\n\n\n\n\nIndia Level\n\n\n\n\nMaps by Census of India\n\n\nDigital Library, Census of India\n\n\nLocal Government Directory - List of all Local Goverments, Urban and Local, with codes and sometimes maps \n\n\nBhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance\n\n\nVILLAGE CENSUS CODE - 2001, \n\n\nCensus of India, List of Villages/Towns, 2011\n \n\n\nGARV-GIS Mapping of UE Villages\n\n\nIndia WRIS\n\n\nIndia WRIS Web Map Services - Administrative - WMS\n\n\nIndia WRIS Web Map Services - All\n\n\nLayer: Villages Boundary (Census-2001) (ID: 1)\n\n\nVillage layer (Census 2001) WMS Service\n provided by \nWRIS India\n\n\nAdministrative layer (Invluding Village) WMS Service\n provided by \nWRIS India\n\n\nMapping of Land Region Codes for Census 2011 and 2001 Data", 
+            "title": "Reference"
+        }, 
+        {
+            "location": "/reference/#reference", 
+            "text": "This is the master list of all the references. These links are mostly goverment or under open license. Each state folder also has a note that can be reffered.", 
+            "title": "Reference"
+        }, 
+        {
+            "location": "/reference/#state-level", 
+            "text": "AP - Bhuvan - Andhra Pradesh State Village Boundaries  BR - Bihar Atlas -  iBHUGOAL-BiHar infrastrUcture mapping Geomatics Oriented Application modeL  BR - Administrative Atlas-Bihar  GJ - Gujarat Revenue Department Maps  HR - Haryana Geo-portal  KA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance  KA - Geographical Information System (GIS) based Road Information System (RIS) for PWP   IWTD Road Network  KA - Dharwad Village Boundaries  KL - Delimitation Map 2010, Kerala, Maps of Villages and Towns  GA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance  GA - Taluka Village Maps - Department of Science, Technology and Environment, Govt of Goa -  PDF  GA - Districts of Goa, Govt of Goa  GA - DGPS Maps - Directorate of Mines   Geology, Govt of Goa  GA - Bhuvan Goa  GA - GARV-GIS Mapping of UE Villages  TS - Bhuvan - Telangana State Village Boundaries  MH - Maharashtra Remote Sensing Application Centre  MH - Geo-referencing of Village Map Project (GVMP)", 
+            "title": "State Level"
+        }, 
+        {
+            "location": "/reference/#india-level", 
+            "text": "Maps by Census of India  Digital Library, Census of India  Local Government Directory - List of all Local Goverments, Urban and Local, with codes and sometimes maps   Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance  VILLAGE CENSUS CODE - 2001,   Census of India, List of Villages/Towns, 2011    GARV-GIS Mapping of UE Villages  India WRIS  India WRIS Web Map Services - Administrative - WMS  India WRIS Web Map Services - All  Layer: Villages Boundary (Census-2001) (ID: 1)  Village layer (Census 2001) WMS Service  provided by  WRIS India  Administrative layer (Invluding Village) WMS Service  provided by  WRIS India  Mapping of Land Region Codes for Census 2011 and 2001 Data", 
+            "title": "India Level"
+        }, 
+        {
+            "location": "/tools/", 
+            "text": "Tools\n\n\n\n\nMapShaper\n is software for editing Shapefile, GeoJSON, TopoJSON and several other data formats, written in JavaScript.\n\n\ngeojson.io\n is a quick, simple tool for creating, viewing, and sharing maps. geojson.io is named after GeoJSON, an open source data format, and it supports GeoJSON in all ways - but also accepts KML, GPX, CSV, GTFS, TopoJSON, and other formats.\n\n\nGeoJSONLint\n is an app that validates your GeoJSON and shows your feature(s) on a map if everything checks out ok.\n\n\nRawGit\n - serves raw files directly from GitHub with proper Content-Type headers.\n\n\nQGIS\n - A Free and Open Source Geographic Information System.", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/tools/#tools", 
+            "text": "MapShaper  is software for editing Shapefile, GeoJSON, TopoJSON and several other data formats, written in JavaScript.  geojson.io  is a quick, simple tool for creating, viewing, and sharing maps. geojson.io is named after GeoJSON, an open source data format, and it supports GeoJSON in all ways - but also accepts KML, GPX, CSV, GTFS, TopoJSON, and other formats.  GeoJSONLint  is an app that validates your GeoJSON and shows your feature(s) on a map if everything checks out ok.  RawGit  - serves raw files directly from GitHub with proper Content-Type headers.  QGIS  - A Free and Open Source Geographic Information System.", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/tutorials/", 
+            "text": "Tutorials\n\n\n\n\nConverting GeoJSON into Shapefile\n\n\nExploring GeoJSON and renaming fields\n\n\nMapping GeoJSON files on GitHub", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/tutorials/#tutorials", 
+            "text": "Converting GeoJSON into Shapefile  Exploring GeoJSON and renaming fields  Mapping GeoJSON files on GitHub", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/br/", 
+            "text": "Bihar\n\n\n\n\nTotal Villages and Towns: \n\n\nCensus State code: \n\n\nShort Name: BR\n\n\n\n\nQuick View\n\n\nOnly static image as the map file is really huge. Please download and try it.\n\n\n\n\nDownload\n\n\nDownload the full map file by Right Click -\n Save Link As\n\n\n Download Map File\n\n\nSupporting Documents\n\n\n\n\nBR - Bihar Atlas -  iBHUGOAL-BiHar infrastrUcture mapping Geomatics Oriented Application modeL\n\n\nBR - Administrative Atlas-Bihar\n\n\nBR - Bhuwan Panchayat\n\n\n\n\nStatus\n\n\n\n\n[x] Map complete - started \n\n\n[ ] 2011 village coding needs to be done", 
+            "title": "Bihar"
+        }, 
+        {
+            "location": "/br/#bihar", 
+            "text": "Total Villages and Towns:   Census State code:   Short Name: BR", 
+            "title": "Bihar"
+        }, 
+        {
+            "location": "/br/#quick-view", 
+            "text": "Only static image as the map file is really huge. Please download and try it.", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/br/#download", 
+            "text": "Download the full map file by Right Click -  Save Link As   Download Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/br/#supporting-documents", 
+            "text": "BR - Bihar Atlas -  iBHUGOAL-BiHar infrastrUcture mapping Geomatics Oriented Application modeL  BR - Administrative Atlas-Bihar  BR - Bhuwan Panchayat", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/br/#status", 
+            "text": "[x] Map complete - started   [ ] 2011 village coding needs to be done", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/ka/", 
+            "text": "Karnataka\n\n\n\n\nTotal Villages and Towns: \n\n\nCensus State code: \n\n\nShort Name: KA\n\n\n\n\nQuick View\n\n\nOnly static image as the map file is really huge. Please download and try it.\n\n\n\nDownload\n\n\nDownload the full map file by Right Click -\n Save Link As\n\n\n Download Map File\n\n\nCredits\n\n\n\n\nInitial Digitizing \nCentre for Interdisciplinary Studies for Environment \n Development (CISED), now merged with ATREE\n.\n\n\n\n\nSupporting Documents\n\n\n\n\nKA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance\n\n\nKA - Geographical Information System (GIS) based Road Information System (RIS) for PWP \n IWTD Road Network\n\n\nKA - Dharwad Village Boundaries\n\n\n\n\nStatus\n\n\n\n\n[x] Intial Map complete \n\n\n[ ] Need 2001 Village coding creation\n\n\n\n\nHistorical Info by creators\n\n\nREADME FILE FOR GIS LAYER \nKar-village-with census 1991 and 2001-GEOG\n\n\n\n\nThis is a shapefile containing the revenue village boundaries of villages in Karnataka \nstate, India\n\n\nThe boundaries have been digitized manually from District Census Handbooks of \nCensus 1991. Each taluka (=CD block in Karnataka) had a separate map. Each map \nwas scanned and digitzed by hand. Each taluka file was geo-rectified using \ncorresponding taluka boundaries created from Survey of India toposheets.\n\n\nThe fit of Census maps with Survey of India maps is not great. So the spatial \nregistration error is +/- 500m.\n\n\nDigitization was verified by comparing area of the digitized polygons with areas as \ngiven in the Census database. However, in several cases, even though there was no \nvisible digitization error, the areas did not match.\n\n\nMulti-part villages were identified and converted into multi-part polygons where \npossible.\n\n\nThe layer has been reprojected to WGS84 datum and Geographic projection (units: \ndecimal degrees)\n\n\nThe village polygons were coded with 1991 and 2001 census location codes. But the \nlayer does not reflect 2001 boundaries accurately (where villages have been merged \ninto towns or part-merged into towns.)", 
+            "title": "Karnataka"
+        }, 
+        {
+            "location": "/ka/#karnataka", 
+            "text": "Total Villages and Towns:   Census State code:   Short Name: KA", 
+            "title": "Karnataka"
+        }, 
+        {
+            "location": "/ka/#quick-view", 
+            "text": "Only static image as the map file is really huge. Please download and try it.", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/ka/#download", 
+            "text": "Download the full map file by Right Click -  Save Link As   Download Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/ka/#credits", 
+            "text": "Initial Digitizing  Centre for Interdisciplinary Studies for Environment   Development (CISED), now merged with ATREE .", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/ka/#supporting-documents", 
+            "text": "KA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance  KA - Geographical Information System (GIS) based Road Information System (RIS) for PWP   IWTD Road Network  KA - Dharwad Village Boundaries", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/ka/#status", 
+            "text": "[x] Intial Map complete   [ ] Need 2001 Village coding creation", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/ka/#historical-info-by-creators", 
+            "text": "README FILE FOR GIS LAYER \nKar-village-with census 1991 and 2001-GEOG   This is a shapefile containing the revenue village boundaries of villages in Karnataka \nstate, India  The boundaries have been digitized manually from District Census Handbooks of \nCensus 1991. Each taluka (=CD block in Karnataka) had a separate map. Each map \nwas scanned and digitzed by hand. Each taluka file was geo-rectified using \ncorresponding taluka boundaries created from Survey of India toposheets.  The fit of Census maps with Survey of India maps is not great. So the spatial \nregistration error is +/- 500m.  Digitization was verified by comparing area of the digitized polygons with areas as \ngiven in the Census database. However, in several cases, even though there was no \nvisible digitization error, the areas did not match.  Multi-part villages were identified and converted into multi-part polygons where \npossible.  The layer has been reprojected to WGS84 datum and Geographic projection (units: \ndecimal degrees)  The village polygons were coded with 1991 and 2001 census location codes. But the \nlayer does not reflect 2001 boundaries accurately (where villages have been merged \ninto towns or part-merged into towns.)", 
+            "title": "Historical Info by creators"
+        }, 
+        {
+            "location": "/kl/", 
+            "text": "Kerala\n\n\n\n\nTotal Villages and Towns: 1533\n\n\nCensus State code: 32\n\n\nShort Name: KL\n\n\n\n\nQuick View\n\n\n\n\nDownload\n\n\nDownload the full map file by Right Click -\n Save Link As\n\n\n Download Map File\n\n\nSupporting Documents\n\n\n\n\nDelimitation Map 2010, Kerala, Maps of Villages and Towns\n\n\n\n\nStatus\n\n\n\n\n[x] Map complete\n\n\n[x] 2001 village coding needs to be done\n\n\n\n\n\nvar map_path = '../minified_maps/kl_simplified.json';", 
+            "title": "Kerala"
+        }, 
+        {
+            "location": "/kl/#kerala", 
+            "text": "Total Villages and Towns: 1533  Census State code: 32  Short Name: KL", 
+            "title": "Kerala"
+        }, 
+        {
+            "location": "/kl/#quick-view", 
+            "text": "", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/kl/#download", 
+            "text": "Download the full map file by Right Click -  Save Link As   Download Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/kl/#supporting-documents", 
+            "text": "Delimitation Map 2010, Kerala, Maps of Villages and Towns", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/kl/#status", 
+            "text": "[x] Map complete  [x] 2001 village coding needs to be done   \nvar map_path = '../minified_maps/kl_simplified.json';", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/ga/", 
+            "text": "GOA\n\n\n\n\nTotal Villages and Towns: 402\n\n\nCensus State code: \n\n\nShort Name: GA\n\n\n\n\nQuick View\n\n\n\n\n\nDownload\n\n\nDownload the full map file by Right Click -\n Save Link As\n\n\n Download Map File\n\n\nSupporting Documents\n\n\n\n\nGA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance\n\n\nGA - Taluka Village Maps - Department of Science, Technology and Environment, Govt of Goa -  PDF\n\n\nGA - Districts of Goa, Govt of Goa\n\n\nGA - DGPS Maps - Directorate of Mines \n Geology, Govt of Goa\n\n\nGA - Bhuvan Goa\n\n\nGA - GARV-GIS Mapping of UE Villages\n\n\n\n\nStatus\n\n\n\n\n[x] Intial Map complete \n\n\n[x] Need 2001 Village coding creation\n\n\n\n\n\nvar map_path = '../minified_maps/ga_simplified.json';", 
+            "title": "Goa"
+        }, 
+        {
+            "location": "/ga/#goa", 
+            "text": "Total Villages and Towns: 402  Census State code:   Short Name: GA", 
+            "title": "GOA"
+        }, 
+        {
+            "location": "/ga/#quick-view", 
+            "text": "", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/ga/#download", 
+            "text": "Download the full map file by Right Click -  Save Link As   Download Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/ga/#supporting-documents", 
+            "text": "GA - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance  GA - Taluka Village Maps - Department of Science, Technology and Environment, Govt of Goa -  PDF  GA - Districts of Goa, Govt of Goa  GA - DGPS Maps - Directorate of Mines   Geology, Govt of Goa  GA - Bhuvan Goa  GA - GARV-GIS Mapping of UE Villages", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/ga/#status", 
+            "text": "[x] Intial Map complete   [x] Need 2001 Village coding creation   \nvar map_path = '../minified_maps/ga_simplified.json';", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/gj/", 
+            "text": "Gujarat\n\n\n\n\nTotal Villages and Towns: 18797\n\n\nCensus State code: 24\n\n\nShort Name: GJ\n\n\n\n\nQuick View\n\n\nMight take some time to load, as even the simplified version is about 10MB.\n\n\n\nDownload\n\n\nDownload the full map file by Right Click -\n Save Link As\n\n\n Download Map File\n\n\nSupporting Documents\n\n\n\n\nGujarat Revenue Department Maps\n\n\nCensus of India, List of Villages/Towns, 2011\n \n\n\nVILLAGE CENSUS CODE - 2001, \n\n\n\n\nStatus\n\n\n\n\n[x] Map complete\n\n\n[x] Need 2001 Village coding creation\n\n\n\n\n\nvar map_path = '../minified_maps/gj_simplified.json';", 
+            "title": "Gujarat"
+        }, 
+        {
+            "location": "/gj/#gujarat", 
+            "text": "Total Villages and Towns: 18797  Census State code: 24  Short Name: GJ", 
+            "title": "Gujarat"
+        }, 
+        {
+            "location": "/gj/#quick-view", 
+            "text": "Might take some time to load, as even the simplified version is about 10MB.", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/gj/#download", 
+            "text": "Download the full map file by Right Click -  Save Link As   Download Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/gj/#supporting-documents", 
+            "text": "Gujarat Revenue Department Maps  Census of India, List of Villages/Towns, 2011    VILLAGE CENSUS CODE - 2001,", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/gj/#status", 
+            "text": "[x] Map complete  [x] Need 2001 Village coding creation   \nvar map_path = '../minified_maps/gj_simplified.json';", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/mh/", 
+            "text": "Maharashtra\n\n\n\n\nTotal Villages and Towns: 48108\n\n\nCensus State code: 27\n\n\nShort Name: MH\n\n\n\n\nCredit\n\n\n\n\nDataMeet Pune Maharashtra Villages mapping\n.\n\n\n\n\nQuick View\n\n\nOnly one part (mh1.geojson) is dsiplayed here. You need to download both the geojson files for your project.\n\n\n\nDownload\n\n\nGeojson file is split into two files. \n- mh1.geojson\n- mh2.geojson\n\n\nDownload the map files by Right Click -\n Save Link As\n\n\n Download First Map File\n\n\n Download Second Map File\n\n\nSupporting Documents\n\n\n\n\nDataMeet Pune Maharashtra Villages mapping\n.\n\n\nSearchable list of 44,000+ villages in Maharashtra with their locations, boundries, census data\n\n\nCities and towns list\n\n\nMH - PCA Maharashtra 2011\n\n\nMH - Administrative Atlas Maharashtra -Census Of India 2011\n\n\n\n\nStatus\n\n\n\n\nForest areas and gaps are removed from geojson\n\n\n\n\n\nvar map_path = '../minified_maps/mh1_simplified.json';", 
+            "title": "Maharashtra"
+        }, 
+        {
+            "location": "/mh/#maharashtra", 
+            "text": "Total Villages and Towns: 48108  Census State code: 27  Short Name: MH", 
+            "title": "Maharashtra"
+        }, 
+        {
+            "location": "/mh/#credit", 
+            "text": "DataMeet Pune Maharashtra Villages mapping .", 
+            "title": "Credit"
+        }, 
+        {
+            "location": "/mh/#quick-view", 
+            "text": "Only one part (mh1.geojson) is dsiplayed here. You need to download both the geojson files for your project.", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/mh/#download", 
+            "text": "Geojson file is split into two files. \n- mh1.geojson\n- mh2.geojson  Download the map files by Right Click -  Save Link As   Download First Map File   Download Second Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/mh/#supporting-documents", 
+            "text": "DataMeet Pune Maharashtra Villages mapping .  Searchable list of 44,000+ villages in Maharashtra with their locations, boundries, census data  Cities and towns list  MH - PCA Maharashtra 2011  MH - Administrative Atlas Maharashtra -Census Of India 2011", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/mh/#status", 
+            "text": "Forest areas and gaps are removed from geojson   \nvar map_path = '../minified_maps/mh1_simplified.json';", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/or/", 
+            "text": "Odisha\n\n\n\n\nTotal Villages and Towns: 48898\n\n\nCensus State code: \n\n\nShort Name: OR\n\n\n\n\nQuick View\n\n\nOnly one part (or1.geojson) is dsiplayed here. You need to download both the geojson files for your project.\n\n\n\nDownload\n\n\nGeojson file is split into two files. \n- or1.geojson\n- or2.geojson\n\n\nDownload the map files by Right Click -\n Save Link As\n\n\n Download First Map File\n\n\n Download Second Map File\n\n\nSupporting Documents\n\n\n\n\n[Village Code Verification is done with reference to this link]\n(http://vlist.in/sub-district/03184.html)\n\n\n\n\nStatus\n\n\n\n\n[x] 2631 in features in geojson file are not mapped. The NAME attribute shows Sub District name, not Village name for these features.\n\n\n\n\n\nvar map_path = '../minified_maps/or1_simplified.json';", 
+            "title": "Odisha"
+        }, 
+        {
+            "location": "/or/#odisha", 
+            "text": "Total Villages and Towns: 48898  Census State code:   Short Name: OR", 
+            "title": "Odisha"
+        }, 
+        {
+            "location": "/or/#quick-view", 
+            "text": "Only one part (or1.geojson) is dsiplayed here. You need to download both the geojson files for your project.", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/or/#download", 
+            "text": "Geojson file is split into two files. \n- or1.geojson\n- or2.geojson  Download the map files by Right Click -  Save Link As   Download First Map File   Download Second Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/or/#supporting-documents", 
+            "text": "[Village Code Verification is done with reference to this link]\n(http://vlist.in/sub-district/03184.html)", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/or/#status", 
+            "text": "[x] 2631 in features in geojson file are not mapped. The NAME attribute shows Sub District name, not Village name for these features.   \nvar map_path = '../minified_maps/or1_simplified.json';", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/sk/", 
+            "text": "Sikkim\n\n\n\n\nTotal Villages and Towns: 406 (actual - 452)\n\n\nCensus State code: 11\n\n\nShort Name: SK\n\n\n\n\nQuick View\n\n\n\n\nDownload\n\n\nDownload the map files by Right Click -\n Save Link As\n\n\n Download First Map File\n\n\nSupporting Documents\n\n\n\n\nSK - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance\n\n\nSK - Administrative Atlas Sikkim -Census Of India 2011\n\n\n\n\nStatus\n\n\n\n\n[x] Intial Map complete \n\n\n[ ] Needs Taluk/District/Village boundary verification\n\n\n[ ] 2011 village coding needs to be done\n\n\n[ ] Need 2001 Village coding creation\n\n\n[x] Need to remove unwanted attributes\n\n\n[x] Need to rename the attribute to reflect the attribute\n\n\n\n\n\nvar map_path = '../minified_maps/sk_simplified.json';", 
+            "title": "Sikkim"
+        }, 
+        {
+            "location": "/sk/#sikkim", 
+            "text": "Total Villages and Towns: 406 (actual - 452)  Census State code: 11  Short Name: SK", 
+            "title": "Sikkim"
+        }, 
+        {
+            "location": "/sk/#quick-view", 
+            "text": "", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/sk/#download", 
+            "text": "Download the map files by Right Click -  Save Link As   Download First Map File", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/sk/#supporting-documents", 
+            "text": "SK - Bhuvan Panchayat - Digital Empowerment of Society for Panchayat level Planning and Governance  SK - Administrative Atlas Sikkim -Census Of India 2011", 
+            "title": "Supporting Documents"
+        }, 
+        {
+            "location": "/sk/#status", 
+            "text": "[x] Intial Map complete   [ ] Needs Taluk/District/Village boundary verification  [ ] 2011 village coding needs to be done  [ ] Need 2001 Village coding creation  [x] Need to remove unwanted attributes  [x] Need to rename the attribute to reflect the attribute   \nvar map_path = '../minified_maps/sk_simplified.json';", 
+            "title": "Status"
+        }, 
+        {
+            "location": "/assembly-constituencies/", 
+            "text": "window.location.href=\"http://projects.datameet.org/maps/assembly-constituencies/\";", 
+            "title": "Assembly Constituencies"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/", 
+            "text": "window.location.href=\"http://projects.datameet.org/maps/parliamentary-constituencies/\";", 
+            "title": "Parliamentary constituencies"
+        }, 
+        {
+            "location": "/states/", 
+            "text": "window.location.href=\"http://projects.datameet.org/maps/states\";", 
+            "title": "States"
+        }, 
+        {
+            "location": "/districts/", 
+            "text": "window.location.href=\"http://projects.datameet.org/maps/districts\";", 
+            "title": "Districts"
+        }, 
+        {
+            "location": "/Municipal_Spatial_Data/", 
+            "text": "window.location.href=\"http://projects.datameet.org/Municipal_Spatial_Data/\";", 
+            "title": "Spatial data of Municipalities"
+        }, 
+        {
+            "location": "/", 
+            "text": "Indian Village Boundaries (Maps)\n\n\nIndian Village boundaries sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc\n\n\nThe boundaries are organized by state using state ISO code. All the village boundaries are available in geojson (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer \nCONTRIBUTING\n for ways to contribute.\n\n\n This projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the \nGoogle Group\n to be part of this community.\n\n\nDownload\n\n\nYou can download the whole repository as a zip file to get everything you want. Using the button below.\n\n\n\n  \n Download Everything\n\n\nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map. \nRight click on download link -\n Save link as\n.\n\n\n\n    \n\n        \nState\n\n        \nStatus\n\n        \nDownload\n\n    \n\n\n\n    \n\n        \nBihar - BR\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nKarnataka - KA\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nKerala - KL\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nGoa - GA\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nGujarat - GJ\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nMaharashtra - MH\n\n        \nComplete\n\n        \nDownload 1\n, \nDownload 2\n\n    \n\n    \n\n        \nSikkim - SK\n\n        \nComplete\n\n        \nDownload\n\n    \n\n    \n\n        \nOdisha - OR\n\n        \nComplete\n\n        \nDownload 1\n, \nDownload 2\n\n    \n\n\n\n\n\n\n\n\nStructure\n\n\nEach state has a folder with a short name, for example state of Karnataka will have folder called \nka\n folder. It will contain \n\n\n\n\nA geojson file \nka.json\n which is our map file\n\n\nA \nka.csv\n is a \n,\n delimted file to match the 2001 census codes to 2011 census codes and other attributes\n\n\n\n\nGeoJson Attributes\n\n\nEach boundary will have the following attributes\n\n\n\n\nNAME : Name of the Village/Town as per census 2001\n\n\nTYPE: Village or Town \n\n\nSUB_DIST: Sub District name as per census 2001\n\n\nDISTRICT : District name as per census 2001\n\n\nSTATE: State or UT name as per census 2001\n\n\nCEN_2001: Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.\n\n\n\n\nCSV Attributes\n\n\n\n\nvillage_code_2011\n\n\nvillage_name_2011\n\n\nstate_code_2011\n\n\ndistrict_code_2011 \n\n\nsub_district_code_2011\n\n\nvillage_code_2001\n\n\nvillage_name_2001\n\n\nstate_code_2001\n\n\ndistrict_code_2001\n\n\nsub_district_code_2001\n\n\nCEN_2001 : Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001. This can be used as the key to match the polygon in geojson\n\n\n\n\nLicense\n\n\nAll our work will be under \nOpen Data Commons Open Database License (ODbL)\n. This data is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  If you find issues we are more than happy to accept corrections but please source them to an official source. Refer \nCONTRIBUTING.md\n for ways to contribute.\n\n\nAttribute\n\n\nPlease use the following lines to attribute the maps if you use in your work. You could link instead of printing the URLs in case of web projects.\n\n\nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_boundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/licenses/odbl/].\n\n  \n\n\nIssues\n\n\nIf you have any issues with the maps, please report them on the github repository:\n\n\nReport Issue\n\n\nActive Issues\n\n\nRepository\n\n\n\n  \n GitHub\n   \n\n  \n GitLab\n\n\nCommunity", 
+            "title": "India Village Boundaries(Maps)"
+        }, 
+        {
+            "location": "/#indian-village-boundaries-maps", 
+            "text": "Indian Village boundaries sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc  The boundaries are organized by state using state ISO code. All the village boundaries are available in geojson (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer  CONTRIBUTING  for ways to contribute.   This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the  Google Group  to be part of this community.", 
+            "title": "Indian Village Boundaries (Maps)"
+        }, 
+        {
+            "location": "/#download", 
+            "text": "You can download the whole repository as a zip file to get everything you want. Using the button below.  \n    Download Everything  If you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map.  Right click on download link -  Save link as .  \n     \n         State \n         Status \n         Download \n      \n     \n         Bihar - BR \n         Complete \n         Download \n     \n     \n         Karnataka - KA \n         Complete \n         Download \n     \n     \n         Kerala - KL \n         Complete \n         Download \n     \n     \n         Goa - GA \n         Complete \n         Download \n     \n     \n         Gujarat - GJ \n         Complete \n         Download \n     \n     \n         Maharashtra - MH \n         Complete \n         Download 1 ,  Download 2 \n     \n     \n         Sikkim - SK \n         Complete \n         Download \n     \n     \n         Odisha - OR \n         Complete \n         Download 1 ,  Download 2", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/#structure", 
+            "text": "Each state has a folder with a short name, for example state of Karnataka will have folder called  ka  folder. It will contain    A geojson file  ka.json  which is our map file  A  ka.csv  is a  ,  delimted file to match the 2001 census codes to 2011 census codes and other attributes", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/#geojson-attributes", 
+            "text": "Each boundary will have the following attributes   NAME : Name of the Village/Town as per census 2001  TYPE: Village or Town   SUB_DIST: Sub District name as per census 2001  DISTRICT : District name as per census 2001  STATE: State or UT name as per census 2001  CEN_2001: Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001.", 
+            "title": "GeoJson Attributes"
+        }, 
+        {
+            "location": "/#csv-attributes", 
+            "text": "village_code_2011  village_name_2011  state_code_2011  district_code_2011   sub_district_code_2011  village_code_2001  village_name_2001  state_code_2001  district_code_2001  sub_district_code_2001  CEN_2001 : Code as per 2001 census, its a concatination of State Code, District Code, Sub-District Code, Village Code 2001. This can be used as the key to match the polygon in geojson", 
+            "title": "CSV Attributes"
+        }, 
+        {
+            "location": "/#license", 
+            "text": "All our work will be under  Open Data Commons Open Database License (ODbL) . This data is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  If you find issues we are more than happy to accept corrections but please source them to an official source. Refer  CONTRIBUTING.md  for ways to contribute.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/#attribute", 
+            "text": "Please use the following lines to attribute the maps if you use in your work. You could link instead of printing the URLs in case of web projects. \nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_boundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/licenses/odbl/].", 
+            "title": "Attribute"
+        }, 
+        {
+            "location": "/#issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository:  Report Issue  Active Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/#repository", 
+            "text": "GitHub     \n    GitLab", 
+            "title": "Repository"
+        }, 
+        {
+            "location": "/#community", 
+            "text": "", 
+            "title": "Community"
+        }
+    ]
+}
