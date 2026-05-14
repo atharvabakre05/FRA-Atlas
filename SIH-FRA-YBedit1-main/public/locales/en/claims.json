@@ -1,0 +1,88 @@
+{
+  "claims": {
+    "submission": {
+      "title": "Submit New Claim",
+      "steps": {
+        "personalInfo": "Personal Information",
+        "location": "Location Details",
+        "documents": "Document Upload",
+        "review": "Review & Submit"
+      },
+      "form": {
+        "claimType": {
+          "label": "Claim Type",
+          "individual": "Individual Forest Rights",
+          "community": "Community Forest Rights"
+        },
+        "personalDetails": {
+          "name": "Full Name",
+          "aadhaar": "Aadhaar Number",
+          "mobile": "Mobile Number",
+          "email": "Email Address",
+          "address": "Residential Address",
+          "village": "Village/Town",
+          "district": "District",
+          "state": "State"
+        },
+        "locationDetails": {
+          "forestArea": "Forest Area Name",
+          "plotNumber": "Plot Number",
+          "areaSize": "Area Size (hectares)",
+          "boundaries": "Plot Boundaries",
+          "gpsCoordinates": "GPS Coordinates",
+          "north": "North Boundary",
+          "south": "South Boundary",
+          "east": "East Boundary",
+          "west": "West Boundary"
+        },
+        "documents": {
+          "proofOfIdentity": "Proof of Identity",
+          "proofOfResidence": "Proof of Residence",
+          "landRecords": "Land Records",
+          "traditionEvidence": "Traditional Evidence",
+          "supportingDocs": "Supporting Documents"
+        }
+      },
+      "buttons": {
+        "next": "Next Step",
+        "previous": "Previous",
+        "save": "Save Draft",
+        "submit": "Submit Claim"
+      },
+      "validation": {
+        "required": "This field is required",
+        "invalid": "Invalid input",
+        "minLength": "Minimum {{count}} characters required",
+        "maxLength": "Maximum {{count}} characters allowed",
+        "numberOnly": "Only numbers are allowed",
+        "invalidAadhaar": "Invalid Aadhaar number",
+        "invalidMobile": "Invalid mobile number",
+        "invalidEmail": "Invalid email address"
+      }
+    },
+    "list": {
+      "title": "My Claims",
+      "filters": {
+        "all": "All Claims",
+        "pending": "Pending",
+        "underReview": "Under Review",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "claimId": "Claim ID",
+        "type": "Type",
+        "submissionDate": "Submitted On",
+        "status": "Status",
+        "area": "Area",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "View Details",
+        "edit": "Edit Claim",
+        "delete": "Delete",
+        "track": "Track Progress"
+      }
+    }
+  }
+}

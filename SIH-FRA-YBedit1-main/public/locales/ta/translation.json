@@ -1,0 +1,31 @@
+{
+  "common": {
+    "login": "உள்நுழைய",
+    "logout": "வெளியேறு",
+    "profile": "சுயவிவரம்",
+    "dashboard": "டாஷ்போர்டு",
+    "claims": "கோரிக்கைகள்",
+    "submit": "சமர்ப்பி",
+    "cancel": "ரத்து செய்",
+    "administrator": "நிர்வாகி",
+    "publicUser": "பொது பயனர்"
+  },
+  "auth": {
+    "email": "மின்னஞ்சல்",
+    "password": "கடவுச்சொல்",
+    "signIn": "உள்நுழைக",
+    "forgotPassword": "கடவுச்சொல் மறந்துவிட்டதா?"
+  },
+  "claims": {
+    "newClaim": "புதிய கோரிக்கை",
+    "myClaims": "எனது கோரிக்கைகள்",
+    "uploadDocuments": "ஆவணங்களை பதிவேற்றவும்",
+    "selectLocation": "இடத்தை தேர்வு செய்க",
+    "claimDetails": "கோரிக்கை விவரங்கள்"
+  },
+  "dashboard": {
+    "recentActivity": "சமீபத்திய செயல்பாடுகள்",
+    "systemStatus": "அமைப்பு நிலை",
+    "statistics": "புள்ளிவிவரங்கள்"
+  }
+}

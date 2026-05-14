@@ -1,0 +1,46 @@
+{
+  "schemes": {
+    "title": "Government Schemes",
+    "filters": {
+      "all": "All Schemes",
+      "category": "Category",
+      "state": "State",
+      "status": "Status"
+    },
+    "categories": {
+      "livelihood": "Livelihood Support",
+      "infrastructure": "Infrastructure Development",
+      "education": "Education",
+      "health": "Health",
+      "agriculture": "Agriculture",
+      "conservation": "Forest Conservation"
+    },
+    "eligibility": {
+      "title": "Eligibility Check",
+      "check": "Check Eligibility",
+      "eligible": "You are eligible",
+      "notEligible": "Not eligible",
+      "criteria": "Eligibility Criteria",
+      "documents": "Required Documents"
+    },
+    "application": {
+      "title": "Scheme Application",
+      "apply": "Apply Now",
+      "track": "Track Application",
+      "status": {
+        "draft": "Draft",
+        "submitted": "Submitted",
+        "underReview": "Under Review",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      }
+    },
+    "details": {
+      "overview": "Overview",
+      "benefits": "Benefits",
+      "process": "Application Process",
+      "timeline": "Timeline",
+      "contact": "Contact Information"
+    }
+  }
+}

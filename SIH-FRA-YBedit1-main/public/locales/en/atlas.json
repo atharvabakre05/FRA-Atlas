@@ -1,0 +1,60 @@
+{
+  "atlas": {
+    "title": "FRA Atlas",
+    "search": {
+      "placeholder": "Search location...",
+      "noResults": "No results found"
+    },
+    "layers": {
+      "title": "Map Layers",
+      "forestCover": "Forest Cover",
+      "claims": "FRA Claims",
+      "tribal": "Tribal Areas",
+      "protected": "Protected Areas",
+      "administrative": "Administrative Boundaries",
+      "satellite": "Satellite Imagery"
+    },
+    "legend": {
+      "title": "Legend",
+      "claims": {
+        "approved": "Approved Claims",
+        "pending": "Pending Claims",
+        "rejected": "Rejected Claims"
+      },
+      "forest": {
+        "dense": "Dense Forest",
+        "moderate": "Moderate Forest",
+        "open": "Open Forest",
+        "scrub": "Scrub Forest"
+      }
+    },
+    "tools": {
+      "measure": {
+        "title": "Measure",
+        "area": "Area",
+        "distance": "Distance",
+        "clear": "Clear Measurements"
+      },
+      "draw": {
+        "title": "Draw",
+        "point": "Point",
+        "line": "Line",
+        "polygon": "Polygon",
+        "clear": "Clear Drawing"
+      },
+      "export": {
+        "title": "Export",
+        "pdf": "Export as PDF",
+        "image": "Export as Image",
+        "data": "Export Data"
+      }
+    },
+    "info": {
+      "coordinates": "Coordinates",
+      "elevation": "Elevation",
+      "forestType": "Forest Type",
+      "landUse": "Land Use",
+      "claimStatus": "Claim Status"
+    }
+  }
+}

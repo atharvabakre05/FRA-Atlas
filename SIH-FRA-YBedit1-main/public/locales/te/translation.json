@@ -1,0 +1,31 @@
+{
+  "common": {
+    "login": "ప్రవేశించండి",
+    "logout": "నిష్క్రమించండి",
+    "profile": "ప్రొఫైల్",
+    "dashboard": "డాష్‌బోర్డ్",
+    "claims": "క్లెయిమ్‌లు",
+    "submit": "సమర్పించండి",
+    "cancel": "రద్దు చేయండి",
+    "administrator": "నిర్వాహకుడు",
+    "publicUser": "పబ్లిక్ యూజర్"
+  },
+  "auth": {
+    "email": "ఇమెయిల్",
+    "password": "పాస్‌వర్డ్",
+    "signIn": "సైన్ ఇన్",
+    "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?"
+  },
+  "claims": {
+    "newClaim": "కొత్త క్లెయిమ్",
+    "myClaims": "నా క్లెయిమ్‌లు",
+    "uploadDocuments": "పత్రాలను అప్‌లోడ్ చేయండి",
+    "selectLocation": "స్థలాన్ని ఎంచుకోండి",
+    "claimDetails": "క్లెయిమ్ వివరాలు"
+  },
+  "dashboard": {
+    "recentActivity": "ఇటీవలి కార్యకలాపాలు",
+    "systemStatus": "సిస్టమ్ స్థితి",
+    "statistics": "గణాంకాలు"
+  }
+}

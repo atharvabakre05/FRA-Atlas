@@ -1,0 +1,64 @@
+{
+  "common": {
+    "login": "लॉग इन",
+    "logout": "लॉग आउट",
+    "profile": "प्रोफ़ाइल",
+    "dashboard": "डैशबोर्ड",
+    "claims": "दावे",
+    "submit": "जमा करें",
+    "cancel": "रद्द करें",
+    "administrator": "प्रशासक",
+    "publicUser": "सार्वजनिक उपयोगकर्ता"
+  },
+  "auth": {
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "signIn": "साइन इन करें",
+    "forgotPassword": "पासवर्ड भूल गए?"
+  },
+  "claims": {
+    "newClaim": "नया दावा",
+    "myClaims": "मेरे दावे",
+    "uploadDocuments": "दस्तावेज़ अपलोड करें",
+    "selectLocation": "स्थान चुनें",
+    "claimDetails": "दावा विवरण",
+    "formFields": {
+      "claimType": "दावे का प्रकार",
+      "claimantName": "दावेदार का नाम",
+      "aadhaar": "आधार संख्या",
+      "mobile": "मोबाइल नंबर",
+      "address": "पता",
+      "landDetails": "भूमि विवरण",
+      "area": "क्षेत्रफल (हेक्टेयर में)",
+      "documents": "सहायक दस्तावेज़"
+    },
+    "status": {
+      "pending": "लंबित",
+      "underReview": "समीक्षाधीन",
+      "approved": "स्वीकृत",
+      "rejected": "अस्वीकृत"
+    },
+    "actions": {
+      "submit": "दावा जमा करें",
+      "save": "ड्राफ्ट सहेजें",
+      "edit": "दावा संपादित करें",
+      "delete": "दावा हटाएं",
+      "review": "दावे की समीक्षा करें",
+      "approve": "दावा स्वीकार करें",
+      "reject": "दावा अस्वीकार करें"
+    },
+    "messages": {
+      "submitSuccess": "दावा सफलतापूर्वक जमा किया गया",
+      "saveSuccess": "दावा ड्राफ्ट के रूप में सहेजा गया",
+      "updateSuccess": "दावा सफलतापूर्वक अपडेट किया गया",
+      "deleteSuccess": "दावा सफलतापूर्वक हटाया गया",
+      "uploadSuccess": "दस्तावेज़ सफलतापूर्वक अपलोड किए गए",
+      "error": "एक त्रुटि हुई। कृपया पुनः प्रयास करें"
+    }
+  },
+  "dashboard": {
+    "recentActivity": "हाल की गतिविधि",
+    "systemStatus": "सिस्टम स्थिति",
+    "statistics": "आंकड़े"
+  }
+}

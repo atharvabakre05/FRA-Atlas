@@ -1,0 +1,54 @@
+{
+  "documents": {
+    "upload": {
+      "title": "Document Upload",
+      "dropzone": {
+        "title": "Drag & Drop Documents",
+        "subtitle": "or click to select files",
+        "maxSize": "Maximum file size: {{size}}MB",
+        "allowedTypes": "Allowed file types: {{types}}"
+      },
+      "ocr": {
+        "processing": "Processing document...",
+        "complete": "OCR processing complete",
+        "error": "OCR processing failed",
+        "extracted": "Extracted Information",
+        "verify": "Please verify the extracted information"
+      },
+      "categories": {
+        "identity": "Identity Documents",
+        "residence": "Proof of Residence",
+        "land": "Land Records",
+        "traditional": "Traditional Evidence",
+        "supporting": "Supporting Documents"
+      },
+      "table": {
+        "filename": "File Name",
+        "type": "Document Type",
+        "size": "Size",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "uploading": "Uploading...",
+        "processing": "Processing",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending Verification"
+      },
+      "actions": {
+        "upload": "Upload",
+        "cancel": "Cancel",
+        "remove": "Remove",
+        "retry": "Retry",
+        "download": "Download"
+      },
+      "validation": {
+        "required": "This document is required",
+        "maxSize": "File size exceeds maximum limit",
+        "invalidType": "Invalid file type",
+        "duplicate": "File already exists"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+doc_id,plot_id,document_type,file_name,ocr_status,extracted_text,upload_date,file_size_kb
+DOC-001,PL-001,fra_application,ramesh_gond_application.pdf,completed,"Individual Forest Rights Application - Ramesh Gond - Village Khairlanji - 2.5 hectares",2024-01-15,245
+DOC-002,PL-002,survey_report,kalahandi_survey.pdf,completed,"Community Forest Resource Survey - Kalahandi Block - 45.8 hectares - Dense Forest Cover",2024-01-16,567
+DOC-003,PL-003,patta_document,adilabad_patta.pdf,completed,"Forest Rights Patta - Adilabad Community - Granted on 2023-09-22 - 12.3 hectares",2024-01-17,189
+DOC-004,PL-004,verification_report,tripura_verification.pdf,processing,"Verification Committee Report - Tripura Tribal Council - Under Review",2024-01-18,334
+DOC-005,PL-005,legacy_document,baiga_legacy_rights.jpg,completed,"Legacy Rights Document - Suresh Baiga - Traditional Forest Dweller - Dindori District",2024-01-19,678
+DOC-006,PL-006,committee_resolution,mayurbhanj_resolution.pdf,completed,"Gram Sabha Resolution - Mayurbhanj FPC - Community Forest Rights - Approved",2024-01-20,423
+DOC-007,PL-007,survey_map,khammam_survey_map.pdf,failed,"Survey Map - Khammam Collective - Water Body Mapping - Processing Error",2024-01-21,789
+DOC-008,PL-008,application_form,lakshmi_application.pdf,completed,"IFR Application - Lakshmi Gond - Agricultural Land - Mandla District - 4.3 hectares",2024-01-22,156
+DOC-009,PL-009,verification_report,udaipur_verification.pdf,processing,"Field Verification Report - Udaipur Committee - Forest Land Assessment",2024-01-23,445
+DOC-010,PL-010,patta_document,jeypore_patta.pdf,completed,"Community Rights Patta - Jeypore Farmers - 28.9 hectares - Agricultural Use",2024-01-24,298

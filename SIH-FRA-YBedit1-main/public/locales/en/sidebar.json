@@ -1,0 +1,19 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "fraAtlas": "FRA Atlas",
+    "claims": "Claims Management",
+    "documents": "Document Upload",
+    "terrain": "Terrain Analysis",
+    "schemes": "Government Schemes",
+    "adminPanel": "Admin Panel",
+    "minimize": "Minimize Sidebar",
+    "expand": "Expand Sidebar",
+    "sections": {
+      "overview": "Overview",
+      "applications": "Applications",
+      "analysis": "Analysis",
+      "management": "Management"
+    }
+  }
+}

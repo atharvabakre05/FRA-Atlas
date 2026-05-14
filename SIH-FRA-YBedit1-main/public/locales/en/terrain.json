@@ -1,0 +1,41 @@
+{
+  "terrain": {
+    "analysis": {
+      "title": "Terrain Analysis",
+      "tools": {
+        "elevation": "Elevation Analysis",
+        "slope": "Slope Analysis",
+        "vegetation": "Vegetation Cover",
+        "waterBodies": "Water Bodies",
+        "landUse": "Land Use Classification"
+      },
+      "mapControls": {
+        "zoom": "Zoom",
+        "pan": "Pan",
+        "measure": "Measure",
+        "draw": "Draw",
+        "layers": "Layers"
+      },
+      "layers": {
+        "satellite": "Satellite Imagery",
+        "topographic": "Topographic Map",
+        "forest": "Forest Cover",
+        "administrative": "Administrative Boundaries",
+        "claims": "FRA Claims"
+      },
+      "analysis": {
+        "generate": "Generate Analysis",
+        "export": "Export Report",
+        "processing": "Processing...",
+        "complete": "Analysis Complete"
+      },
+      "report": {
+        "title": "Analysis Report",
+        "summary": "Summary",
+        "details": "Detailed Analysis",
+        "recommendations": "Recommendations",
+        "download": "Download Report"
+      }
+    }
+  }
+}

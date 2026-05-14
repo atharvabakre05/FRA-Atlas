@@ -1,0 +1,11 @@
+plot_id,state,district,village,area_hectares,zone_type,coordinates_lat,coordinates_lng,owner_name,tribal_group,status,elevation,soil_type,water_proximity
+PL-001,Madhya Pradesh,Balaghat,Khairlanji,2.5,agricultural,21.8047,80.1936,Ramesh Gond,Gond,granted,545,Red Sandy Loam,0.8
+PL-002,Odisha,Kalahandi,Bhawanipatna,45.8,forest,19.9067,83.1636,Kalahandi Committee,Kandha,pending,678,Black Cotton Soil,1.2
+PL-003,Telangana,Adilabad,Utnoor,12.3,agricultural,19.0728,78.8718,Adilabad Community,Koya,granted,423,Alluvial Soil,0.5
+PL-004,Tripura,West Tripura,Agartala,8.7,residential,23.8315,91.2868,Tripura Tribal Council,Tripuri,pending,156,Laterite Soil,2.1
+PL-005,Madhya Pradesh,Dindori,Samnapur,15.6,forest,22.9447,81.0792,Suresh Baiga,Baiga,granted,789,Red Loam,0.3
+PL-006,Odisha,Mayurbhanj,Baripada,33.2,forest,21.9347,86.7349,Mayurbhanj FPC,Santhal,granted,234,Laterite Soil,1.8
+PL-007,Telangana,Khammam,Bhadrachalam,67.4,water,17.6688,80.8936,Khammam Collective,Koya,pending,98,Alluvial Soil,0.1
+PL-008,Madhya Pradesh,Mandla,Narayanganj,4.3,agricultural,22.5986,80.3647,Lakshmi Gond,Gond,granted,567,Black Soil,1.5
+PL-009,Tripura,South Tripura,Udaipur,19.8,forest,23.5333,91.4833,Udaipur Committee,Reang,pending,345,Red Soil,0.9
+PL-010,Odisha,Koraput,Jeypore,28.9,agricultural,18.8569,82.5678,Jeypore Farmers,Kondh,granted,1234,Red Sandy Soil,2.3

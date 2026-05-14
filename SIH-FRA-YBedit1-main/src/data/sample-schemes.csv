@@ -1,0 +1,11 @@
+scheme_id,name,ministry,description,funding_amount,eligibility_criteria,applicable_states,zone_types,status,deadline
+SCH-001,PM-KISAN Scheme,Agriculture,Direct income support to farmers with small and marginal holdings,6000,"Small farmers,Marginal land holders,Agricultural plots","All States",agricultural,active,2024-03-31
+SCH-002,Forest Rights Act Implementation,Tribal Affairs,Recognition of forest dwelling communities and their rights over forest land,25000,"Forest dwelling communities,Tribal populations,Forest plots","Madhya Pradesh,Odisha,Telangana,Tripura",forest,active,2024-06-30
+SCH-003,Watershed Development Scheme,Rural Development,Sustainable development of natural resources in watershed areas,150000,"Water scarce areas,Degraded lands,Rural communities","Madhya Pradesh,Telangana,Odisha",agricultural,active,2024-12-31
+SCH-004,Soil Health Card Scheme,Agriculture,Soil testing and nutrient management for sustainable agriculture,5000,"All farmers,Agricultural land,Cooperative societies","All States",agricultural,active,2024-04-15
+SCH-005,National Afforestation Programme,Environment,Afforestation and eco-restoration of degraded forest lands,75000,"Degraded forest land,Community participation,JFM committees","All States",forest,upcoming,2024-08-31
+SCH-006,MGNREGA,Rural Development,Guaranteed employment in rural areas for livelihood security,12000,"Rural households,BPL families,Tribal communities","All States","agricultural,residential",active,2024-12-31
+SCH-007,Pradhan Mantri Awas Yojana,Housing,Housing for all in rural areas,120000,"Rural families,Homeless,Below poverty line","All States",residential,active,2024-10-31
+SCH-008,Jal Jeevan Mission,Jal Shakti,Providing functional household tap connections to every rural household,50000,"Rural households,Water scarce areas,Tribal villages","All States","residential,agricultural",active,2024-12-31
+SCH-009,Digital India Land Records,Electronics & IT,Digitization of land records and property cards,15000,"Land owners,Revenue departments,Village administrations","All States","agricultural,residential",active,2024-09-30
+SCH-010,Tribal Sub Plan,Tribal Affairs,Special development programs for tribal areas,200000,"Tribal communities,Scheduled areas,Forest dwellers","Madhya Pradesh,Odisha,Telangana,Tripura","forest,residential",active,2024-11-30

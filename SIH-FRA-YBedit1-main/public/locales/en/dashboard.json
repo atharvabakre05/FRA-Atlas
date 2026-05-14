@@ -1,0 +1,64 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "statsCards": {
+      "totalClaims": "Total Claims",
+      "pendingClaims": "Pending Claims",
+      "approvedClaims": "Approved Claims",
+      "rejectedClaims": "Rejected Claims"
+    },
+    "systemStatus": {
+      "title": "System Status",
+      "online": "Online",
+      "offline": "Offline",
+      "maintenance": "Under Maintenance",
+      "database": "Database",
+      "aiModel": "AI Model",
+      "gisServer": "GIS Server",
+      "documentScanner": "Document Scanner"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "newClaim": "New claim submitted",
+      "claimUpdated": "Claim updated",
+      "documentUploaded": "Document uploaded",
+      "verificationComplete": "Verification completed",
+      "noActivity": "No recent activity"
+    },
+    "fraProgress": {
+      "title": "FRA Implementation Progress",
+      "claimsReceived": "Claims Received",
+      "underProcess": "Under Process",
+      "verified": "Verified",
+      "titleDistributed": "Title Distributed"
+    },
+    "stateDistribution": {
+      "title": "State-wise Distribution",
+      "totalClaims": "Total Claims",
+      "approvalRate": "Approval Rate",
+      "pendingVerification": "Pending Verification"
+    },
+    "interactiveMap": {
+      "title": "Interactive FRA Atlas",
+      "description": "Comprehensive geospatial visualization of Forest Rights Act claims and territories",
+      "stats": "{{count}} Claims Mapped",
+      "features": {
+        "layers": "Multi-layer Visualization",
+        "forestCover": "Forest Cover Analysis",
+        "waterBodies": "Water Body Detection",
+        "farmland": "Agricultural Land Mapping"
+      }
+    },
+    "assetMapping": {
+      "title": "AI Asset Mapping",
+      "description": "Satellite-based asset detection using Computer Vision and Machine Learning",
+      "stats": "{{count}} Assets Detected",
+      "features": {
+        "satellite": "Satellite Imagery Processing",
+        "terrain": "Terrain Analysis",
+        "soil": "Soil Classification",
+        "ai": "AI-Powered Detection"
+      }
+    }
+  }
+}

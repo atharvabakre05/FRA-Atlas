@@ -1,0 +1,52 @@
+{
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "overview": "System Overview",
+      "stats": {
+        "users": "Total Users",
+        "claims": "Active Claims",
+        "documents": "Documents Processed",
+        "verifications": "Pending Verifications"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "add": "Add User",
+      "edit": "Edit User",
+      "delete": "Delete User",
+      "roles": {
+        "admin": "Administrator",
+        "verifier": "Verifier",
+        "fieldOfficer": "Field Officer",
+        "public": "Public User"
+      }
+    },
+    "claims": {
+      "title": "Claims Management",
+      "verify": "Verify Claim",
+      "approve": "Approve Claim",
+      "reject": "Reject Claim",
+      "status": {
+        "new": "New",
+        "verified": "Verified",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      }
+    },
+    "settings": {
+      "title": "System Settings",
+      "general": "General Settings",
+      "notifications": "Notification Settings",
+      "security": "Security Settings",
+      "backup": "Backup & Restore"
+    },
+    "logs": {
+      "title": "System Logs",
+      "activity": "Activity Log",
+      "error": "Error Log",
+      "audit": "Audit Trail"
+    }
+  }
+}

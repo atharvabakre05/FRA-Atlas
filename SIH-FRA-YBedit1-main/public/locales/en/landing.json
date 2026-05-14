@@ -1,0 +1,39 @@
+{
+  "landing": {
+    "title": "Forest Rights Act",
+    "subtitle": "Digital Management System",
+    "description": "Empowering communities through transparent and efficient forest rights management",
+    "features": {
+      "title": "Key Features",
+      "mapping": {
+        "title": "Interactive Mapping",
+        "description": "Explore forest areas and claim locations with our advanced mapping tools"
+      },
+      "tracking": {
+        "title": "Claim Tracking",
+        "description": "Real-time updates on your forest rights claims and applications"
+      },
+      "verification": {
+        "title": "Digital Verification",
+        "description": "Streamlined verification process with AI-powered document analysis"
+      },
+      "support": {
+        "title": "Community Support",
+        "description": "Dedicated support for tribal and forest-dwelling communities"
+      }
+    },
+    "actions": {
+      "employeeLogin": "Employee Login",
+      "employeeDescription": "For government officials and administrators",
+      "publicLogin": "Public Login",
+      "publicDescription": "For citizens and community members",
+      "getStarted": "Get Started"
+    },
+    "stats": {
+      "claims": "Claims Processed",
+      "area": "Forest Area Covered",
+      "communities": "Communities Served",
+      "states": "States Participating"
+    }
+  }
+}
